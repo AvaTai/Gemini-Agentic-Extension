@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "Ava's Gemini Helper",
+  "version": "1.0",
+  "description": "Uses Gemini to get info on selected text.",
+  "permissions": [
+    "contextMenus",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://generativelanguage.googleapis.com/",
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["icon.png"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "action": {
+    "default_title": "View History",
+    "default_popup": "history.html"
+  },
+  "options_page": "options.html",
+  "icons": {
+    "128": "icon.png"
+  }
+}
