@@ -3,7 +3,7 @@ A simple extension that enables Gemini features in the context menu. It's a mult
 
 This is a learning project I built with the help of Gemini 2.5 Pro. It's not perfect, but it works, and I welcome any constructive feedback! It's extremely slow and doesnt always nail the task exactly, but it does function!
 
-You will need to supply your own Gemini API key upon first use.
+Put all files into a folder and load as unpacked in your browser (tested in Opera GX). You will need to supply your own Gemini API key upon first use. 
 
 # Current Features
 
