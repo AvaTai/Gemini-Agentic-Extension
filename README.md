@@ -1,5 +1,5 @@
 # Gemini-Agentic-Extension
-A simple extension that enables Gemini features in the context menu. It's a multi-step, general-purpose AI agent browser extension.
+A simple extension that enables Gemini features in the context menu. It's a multi-step, general-purpose AI agent browser extension that teaches itself how to navigate websites as it goes.
 
 This is a learning project I built with the help of Gemini 2.5 Pro. It's not perfect, but it works, and I welcome any constructive feedback! It's extremely slow and doesnt always nail the task exactly, but it does function!
 
